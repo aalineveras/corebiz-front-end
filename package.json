@@ -7,7 +7,10 @@
     "start": "parcel src/index.pug --open",
     "build": "parcel build src/index.pug"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lit-html": "^1.2.1",
+    "swiper": "^6.1.1"
+  },
   "devDependencies": {
     "@babel/core": "7.2.0",
     "parcel-bundler": "^1.6.1",

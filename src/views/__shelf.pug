@@ -1,18 +1,10 @@
 section.shelf
   h3.shelf__title Mais vistos
 
-  ul.shelf__list
-    li.shelf__list-item
-      article.shelf__item
-        figure.shelf__item-figure
-          img.shelf__item-img(src="https://corebiz-test.herokuapp.com/images/product-2.png", alt="Sandália")
-        .shelf__item-container.shelf__item-container--text
-          h2.shelf__item-title Sapato floater preto
-          div.shelf__item-container.shelf__item-container--stars
-            span.shelf__item-star
-            span.shelf__item-star.shelf__item-star--empty
-          div.shelf__item-container.shelf__item-container--price
-            p.shelf__item-price.shelf__item-price--last de R$ 299,00
-            p.shelf__item-price.shelf__item-price--best por R$ 259,90
-            p.shelf__item-price.shelf__item-price--installments ou em 9x de R$ 28,87
-          button.shelf__item-button Comprar
+  #shelfProducts.swiper-container
+    ul.shelf__list.shelf__list--products.swiper-wrapper
+
+    .swiper-pagination
+
+    //- .swiper-button-prev
+    //- .swiper-button-next
