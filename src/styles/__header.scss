@@ -1,0 +1,53 @@
+.header{
+  width: 100%;
+  height: 80px;
+  &__content{
+    margin-top:7px ;
+    display: flex;
+    justify-content: space-around;
+    button{
+      background: none;
+      border: none;
+    }
+    &--logo{
+
+    }
+    &--minicart{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-counter{
+        width: 14px;
+        height: 14px;
+        border-radius: 100%;
+        font-weight: 600;
+        font-size: 10px;
+        color: #fff;
+        background-color: #F8475F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  &__search{
+    width: 90%;
+    border-bottom: solid 1px #7A7A7A ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px auto;
+    input{
+      font-family: "Nunito", sans-serif;
+      font-weight: normal;
+      font-size: 13px;
+      border: none;
+      width: 90%;
+    }
+    button{
+      background: none;
+      border: none;
+    }
+  }
+}

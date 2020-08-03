@@ -8,9 +8,12 @@ html
     link(href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet")
 
   body
+    include views/__header.pug
+
     main
       include views/__shelf.pug
 
+    include views/__newsletter.pug
     include views/__footer.pug
 
     script(src="js/index.js")

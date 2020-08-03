@@ -1,0 +1,44 @@
+.newsletter{
+  padding: 17px;
+  background: #F2F2F2;
+  &__title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  &__form{
+    margin-top: 19px;
+    input{
+      border: none;
+      width: 288px;
+      height: 48px;
+      margin-bottom: 22px;
+      border-radius: 4px;
+      &::placeholder{
+        padding-left: 17px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+      }
+    }
+    button{
+      width: 288px;
+      height: 48px;
+      background-color: #000000;
+      color: #ffffff;
+      border:none;
+      border-radius: 5px;
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+}

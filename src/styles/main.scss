@@ -1,7 +1,9 @@
 @import 'icons64/__base.scss';
 
 @import 'components/__shelf.scss';
-@import 'components/__footer.scss';
+@import '__header.scss';
+@import '__footer.scss';
+@import '__newsletter.scss';
 
 body {
   font-family: "Nunito", sans-serif;
