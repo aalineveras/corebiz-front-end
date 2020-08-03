@@ -1,7 +1,9 @@
 @import '__footer.scss';
+@import '__newsletter.scss';
 
 body {
   font-family: "Nunito", sans-serif;
+  width: 320px;
 }
 
 * {
