@@ -6,18 +6,20 @@
   color: #ffffff;
   box-sizing: border-box;
   &__local{
-    font-weight: bold;
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 50px;
-
-    &::after{
-      content:"";
-      width: 32px;
-      padding: 2px;
-      display: block;
-      background-color: #ffffff;
+    &--title{
+      font-weight: bold;
+      font-size: 18px;
+      color: #ffffff;
+      line-height: 50px;
+      &::after{
+        content:"";
+        width: 32px;
+        padding: 2px;
+        display: block;
+        background-color: #ffffff;
+      }
     }
+
     &--address{
       margin-top: 15px;
       font-weight: normal;
@@ -83,6 +85,17 @@
         margin-top: 2px;
         content: url($icon-vtex);
       }
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__bottom{
+      width: 180px;
     }
   }
 }

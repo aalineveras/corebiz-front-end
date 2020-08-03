@@ -1,4 +1,7 @@
 .newsletter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
   padding: 17px;
   background: #F2F2F2;
   &__start{
@@ -9,9 +12,7 @@
       font-size: 22px;
       line-height: 22px;
       color: #333333;
-      display: flex;
-      justify-content: center;
-      white-space: nowrap;
+
     }
     &--form{
       margin-top: 19px;
@@ -68,6 +69,27 @@
       font-weight: bold;
       font-size: 14px;
       margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .newsletter{
+    height: 146px;
+    &__start{
+      &--title{
+        margin-top: 15px;
+      }
+      &--form{
+        display: flex;
+        justify-content: center;
+        input{
+          margin: 0 25px ;
+        }
+        button{
+          width: 140px;
+        }
+      }
     }
   }
 }
