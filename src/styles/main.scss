@@ -1,7 +1,11 @@
-@import '__footer.scss';
+@import 'icons64/__base.scss';
+
+@import 'components/__shelf.scss';
+@import 'components/__footer.scss';
 
 body {
   font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
 
 * {
