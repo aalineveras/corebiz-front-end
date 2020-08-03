@@ -1,10 +1,9 @@
-@import '__header.scss';
-@import '__footer.scss';
-@import '__newsletter.scss';
+@import 'components/__header';
+@import 'components/__footer';
+@import 'components/__newsletter';
 
 body {
   font-family: "Nunito", sans-serif;
-  width: 320px;
 }
 
 * {
