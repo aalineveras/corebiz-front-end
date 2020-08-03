@@ -1,0 +1,95 @@
+.newsletter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 17px;
+  background: #F2F2F2;
+  &__start{
+    &--title{
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 22px;
+      color: #333333;
+
+    }
+    &--form{
+      margin-top: 19px;
+      input{
+        border: none;
+        width: 288px;
+        height: 48px;
+        margin-bottom: 22px;
+        border-radius: 4px;
+        &::placeholder{
+          padding-left: 17px;
+          font-family: 'Nunito';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+        }
+      }
+      button{
+        width: 288px;
+        height: 48px;
+        background-color: #000000;
+        color: #ffffff;
+        border:none;
+        border-radius: 5px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+  }
+  &__message-success{
+    color: #000;
+    text-align: center;
+    display: none ;
+
+    p{
+      font-weight: bold;
+      font-size: 22px;
+    }
+    span{
+
+      font-weight: normal;
+      font-size: 14px;
+    }
+    button{
+      width: 288px;
+      height: 48px;
+      background-color: #000000;
+      color: #ffffff;
+      border:none;
+      border-radius: 5px;
+      font-family: 'Nunito';
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .newsletter{
+    height: 146px;
+    &__start{
+      &--title{
+        margin-top: 15px;
+      }
+      &--form{
+        display: flex;
+        justify-content: center;
+        input{
+          margin: 0 25px ;
+        }
+        button{
+          width: 140px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title CoreBiz - Front End - Aline Veras
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css")
+    link(href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" rel="stylesheet")
+
+  body
+    include views/__header.pug
+
+    main
+
+      include views/__banner.pug
+      include views/__shelf.pug
+
+    include views/__newsletter.pug
+    include views/__footer.pug
+
+    script(src="js/index.js")
