@@ -1,5 +1,8 @@
 # Corebiz Front-End Aline Veras
 
+Deploy:
+[Preview](https://corebiz-frontend-alineveras.netlify.app/)
+
 Stack:
 - [Parcel](https://parceljs.org/)
 - [Swiper](https://swiperjs.com/)
