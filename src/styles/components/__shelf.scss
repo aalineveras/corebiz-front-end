@@ -1,0 +1,95 @@
+.shelf {
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 16px;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 32px;
+      height: 5px;
+      background: #C0C0C0;
+      margin-top: 5px;
+    }
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__item-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__item-figure {
+    position: relative;
+  }
+
+  &__item-img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__item-title {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  &__item-star {
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+
+    &::after {
+      content: url($icon-star);
+    }
+  }
+
+  &__item-star--empty {
+    &::after {
+      content: url($icon-star--empty);
+    }
+  }
+
+  &__item-price--last {
+    text-decoration: line-through;
+  }
+
+  &__item-price--best {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin: 5px 0;
+  }
+
+  &__item-button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: white;
+    background: black;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+  }
+
+  &__item-container--stars {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item-container--price {
+    color: #7A7A7A;
+    font-size: 12px;
+  }
+}
